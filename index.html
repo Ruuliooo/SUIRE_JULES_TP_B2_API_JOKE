@@ -1,0 +1,75 @@
+<!-- Les commentaires ont été généré via chatGPT-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Définition du type de document et de la langue pour la page -->
+    <meta charset="UTF-8"> <!-- Encodage des caractères en UTF-8 pour supporter les accents et caractères spéciaux -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permet à la page d'être responsive sur les appareils mobiles -->
+
+    <!-- Titre de la page qui s'affiche dans l'onglet du navigateur -->
+    <title>API JOKE</title>
+
+    <!-- Lien vers la feuille de style Bootstrap pour une mise en page rapide et stylisée -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Lien vers une feuille de style personnalisée -->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <!-- Conteneur principal de la page -->
+    <div id="card-container">
+        <div class="container mt-4">
+            <!-- Titre principal affiché au centre de la page -->
+            <h1 class="text-center title">😎 Générateur de blagues</h1>
+
+            <!-- Section pour afficher les blagues récupérées ou ajoutées -->
+            <div id="jokeTable">
+                <!-- Bouton pour générer une nouvelle blague via l'API -->
+                <button type="submit" id="btnNewJoke" class="btn btn-primary">Nouvelle blague</button>
+                
+                <!-- Bouton pour vider le tableau des blagues -->
+                <button type="button" id="btnClearTable" class="btn btn-danger">Vider le tableau</button>
+
+                <!-- Tableau pour afficher les blagues récupérées -->
+                <table id="jokeTableau" class="table table-hover">
+                    <thead>
+                        <tr>
+                            <!-- En-tête des colonnes du tableau : Catégorie et Blague -->
+                            <th>Catégorie</th>
+                            <th>Blague</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Le corps du tableau est vide au départ, les blagues y seront insérées dynamiquement via JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Formulaire pour permettre à l'utilisateur d'ajouter sa propre blague -->
+            <form id="jokeForm" class="mt-4">
+                <div class="form-group">
+                    <!-- Titre pour le formulaire -->
+                    <h3 class="text-center">Ajouter votre propre blague</h3>
+                    
+                    <!-- Champ de saisie pour entrer la catégorie de la blague -->
+                    <label for="jokeCategory">Catégorie</label>
+                    <input type="text" class="form-control" id="jokeCategory" placeholder="Entrez la catégorie">
+                </div>
+                <div class="form-group">
+                    <!-- Champ de texte pour entrer le contenu de la blague -->
+                    <label for="jokeContent">Blague</label>
+                    <textarea class="form-control" id="jokeContent" rows="3" placeholder="Entrez votre blague"></textarea>
+                </div>
+                
+                <!-- Bouton pour soumettre la blague ajoutée par l'utilisateur -->
+                <button type="submit" id="btnAddJoke" class="btn btn-primary">Ajouter la blague</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Lien vers le fichier JavaScript contenant la logique pour interagir avec l'API et gérer le formulaire -->
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
+
+

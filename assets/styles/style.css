@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#d6e1d5 0%, #77A5F8 100%);
+}
+
+#card-container {
+    width: 80%;
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgb(184, 184, 184);
+}
+
+
+.title {
+    margin: 15px 0 50px 0;
+}
+
+#jokeTable {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(184, 184, 184);
+    margin: 0px 0 40px 0;
+}
+
+#jokeForm {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(184, 184, 184);
+    margin: 10px 0 40px 0;
+}
+
+
+#jokeTableau {
+    margin: 20px 0 50px 0;
+    border: 1px solid rgb(199, 199, 199);
+}

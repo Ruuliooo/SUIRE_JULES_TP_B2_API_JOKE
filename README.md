@@ -1,13 +1,9 @@
 # SUIRE_JULES_TP_B2_API_JOKE
 ## Projet
-Nous devons récupérer l'API Joke permettant de générer des blagues aléatoires avec un système de filtre pour éviter par exemple les blagues racistes, mysogines, sexuelles et nous devons les ranger dans un tableau par la suite.
-![](image.png)
+Ce projet consiste à utiliser un générateur de blagues via l'API Joke et à générer des blagues dans un tableau en blacklistant les filtres suivants : NSFW, RELIGION, POLITIQUE, RACISTE, SEXISTE & EXPLICIT, développé en HTML, CSS et JavaScript. 
 
 __________________________________________________________________________________
-Je joindrais quelques screenshots du projet ci-dessous.
-
-
 
 
 ## Mise à jour
-Dernière mise à jour le ```07/10/2024```
+Dernière mise à jour le ```10/10/2024```
