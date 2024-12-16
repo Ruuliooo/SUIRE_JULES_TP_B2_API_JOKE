@@ -9,4 +9,4 @@ ________________________________________________________________________________
 ## Mise à jour
 Dernière mise à jour le ```10/10/2024```
 ## Tags
-Créé par Ruuliooo
+Créé par Ruuliooo (follow me)
